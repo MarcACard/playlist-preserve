@@ -53,7 +53,7 @@ export function WaitlistForm() {
         <div className="text-center">
           <h3 className="font-semibold">Thanks for Joining the Waitlist! 🎉</h3>
           <p className="text-muted-foreground text-sm">
-            You'll hear from us soon.
+            You&apos;ll hear from us soon.
           </p>
         </div>
       ) : (
@@ -91,7 +91,7 @@ export function WaitlistForm() {
                 "Join Waitlist"
               ) : (
                 <>
-                  <LoaderCircle className="animate-spin mr-2" />
+                  <LoaderCircle className="mr-2 animate-spin" />
                   <span>Submitting...</span>
                 </>
               )}
