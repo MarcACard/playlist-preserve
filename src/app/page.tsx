@@ -12,11 +12,11 @@ export default function Home() {
           <div className="grid grid-cols-1 gap-12 py-8 lg:grid-cols-2 lg:py-16">
             <div className="flex flex-col items-center justify-center lg:items-start">
               <h1 className="text-center text-5xl font-bold tracking-tighter lg:text-left lg:text-5xl xl:text-6xl">
-                Your Spotify Playlist Time Machine
+                Your Apple Music Playlist Time Machine
               </h1>
               <p className="text-muted-foreground mt-4 text-center text-xl md:text-xl lg:text-left lg:text-2xl">
-                Archive discover weekly recommendations, monitor playlist
-                changes, and never lose track of a song again.
+                Automated playlist snapshots so you can see what changed, when,
+                and never lose a song again.
               </p>
               <WaitlistSection />
             </div>
